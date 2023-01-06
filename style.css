@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Work+Sans:wght@300&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(53, 51, 51);
+}
+
+.container1, 
+.container2 {
+    display: flex;
+    height: 100vh;
+}
+
+h1 {
+    font-size: 50px;
+    color: rgb(12, 12, 12);
+    font-family: 'Work Sans', sans-serif;
+    margin-left: 20%;
+}
+
+.skills-box {
+    background-color: rgb(233, 233, 233);
+    width: 40%;
+    height: 45%;
+    margin-left: 20%;
+    margin-top: 12%;
+    border-radius: 10px;
+}
+
+.icons-box {
+    position: absolute;
+    justify-content: center;
+    text-align: center;
+    margin-top: 15%;
+    margin-left: 38%;
+    border-radius: 10px;
+    width: 25%;
+    height: 35%;
+    background-color: rgb(219, 82, 19);
+}
+
+.fa-brands {
+    margin-top: 15%;
+    color: rgb(17, 16, 16);
+    font-size: 95px;
+    letter-spacing: 15px;
+}
+
+.skills-text {
+    width: 300px;
+    height: 1000px;
+    font-size: 25px;
+    text-decoration: none;
+    color: rgb(12, 12, 12);
+    text-align: justify;
+    margin-left: 10px;
+}
+
+.code {
+    margin-top: 9%;
+    margin-left: 40px;
+    width: 35%;
+    height: 40%;
+    border-radius: 10px;
+}
+
+.code2 {
+    position: absolute;
+    z-index: -1;
+    position: relative;
+    margin-top: 37%;
+    width: 30%;
+    height: 40%;
+    border-radius: 10px;
+    margin-left: 60%;
+}
+
+.projects1-box {
+    position: absolute;
+    z-index: 1;
+    border-radius: 10px;
+    width: 25%;
+    height: 20%;
+    margin-top: 10%;
+    margin-left: 25%;
+    background-color: rgb(233, 233, 233);
+}
+
+.projects2-box {
+    position: absolute;
+    z-index: 0;
+    background-color: rgb(219, 82, 19);
+    border-radius: 10px;
+    height: 60%;
+    width: 50%;
+    margin-top: 15%;
+    margin-left: 20%;
+}
+
+.hash {
+    position: absolute;
+    z-index: 2;
+    background-color: rgb(219, 82, 19);
+    border-radius: 10px;
+    margin-top: 2%;
+    margin-left: 2%;
+    height: 13%;
+    width: 8%;
+    text-align: center;
+}
+
+.fa-hashtag {
+    position: absolute;
+    z-index: 3;
+    color: rgb(12, 12, 12);
+    margin-top: 45px;
+    font-size: 75px;
+}
+
+.contact {
+    display: flex;
+    text-align: center;
+    position: absolute;
+    z-index: 5;
+    background-color: rgb(233, 233, 233);
+    height: 12%;
+    width: 10%;
+    margin-top: 42.5%;
+    border-radius: 10px;
+    margin-left: 88%;
+}
+
+.fa-linkedin,
+.fa-github {
+    font-size: 75px;
+    margin-left: 2%;
+    cursor: pointer;
+}
+
+.name {
+    position: absolute;
+    display: flex;
+    z-index: 6;
+    background-color: rgb(233, 233, 233);
+    flex-direction: row;
+    justify-content: center;
+    margin-left: 45%;
+    margin-top: 1%;
+    height: 8%;
+    width: 12%;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 55px;
+    border-radius: 10px;
+}
+
+.surname {
+    position: absolute;
+    display: flex;
+    z-index: 7;
+    background-color: rgb(219, 82, 19);
+    margin-left: 56%;
+    margin-top: 4%;
+    height: 8%;
+    width: 12%;
+    font-size: 55px;
+    border-radius: 10px;
+    font-family: 'Work Sans', sans-serif;
+}
